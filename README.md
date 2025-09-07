@@ -1,29 +1,33 @@
-# 📎 PDF Merger Project
+# 📄 PDF Merger App
 
-This repo contains:
-- **app.py** → Streamlit web app (upload PDFs and merge in browser).
-- **merge_pdfs.py** → Command-line tool (merge locally).
-- **requirements.txt** → Dependencies.
- 📚 PDF Merger App
-
-A simple **Streamlit web app** and Python script to merge multiple PDF files into a single document.  
-Perfect for quickly combining PDFs without needing heavy software.
+A simple **Streamlit web app** to merge multiple PDF files into one.  
+Built with **Python** and **pypdf**.
 
 ---
 
-## 🚀 Features
-- 📂 Upload multiple PDFs
-- 🔗 Merge them into one file
-- 💾 Download the merged PDF
-- ⚡ Fast and lightweight (built with Python + Streamlit)
+## 🚀 Live Demo  
+👉 [Try the PDF Merger App here](https://pdf-merger-bezqyyrqof6icgcdywjj5j.streamlit.app/)
 
 ---
 
-## 🛠️ Installation & Setup
+## ✨ Features
+- Upload multiple PDF files  
+- Merge them into a single PDF  
+- Download the merged file instantly  
+- No installation needed (just use the link above)
 
-1. Clone the repository:
-   
-   git clone https://github.com/kanna1125/pdf-merger.git
-   cd pdf-merger
+---
 
-  
+## 🛠️ Tech Stack
+- [Python](https://www.python.org/)  
+- [pypdf](https://pypdf.readthedocs.io/)  
+- [Streamlit](https://streamlit.io/)  
+
+---
+
+## 💻 Run Locally
+
+Clone the repository:
+```bash
+git clone https://github.com/kanna1125/pdf-merger.git
+cd pdf-merger
